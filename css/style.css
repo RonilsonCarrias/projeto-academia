@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    border: none;
+
+
+}
+
+html {
+    font-size: 100%;
+    scroll-behavior: smooth;
+    scroll-padding-top: 5rem;
+    overflow-x: hidden;
+}
+
+html::-webkit-scrollbar {
+    width: 1rem;
+}
+
+html::-webkit-scrollbar-track {
+
+    background: #79a6e9;
+}
+
+html::-webkit-scrollbar-thumb {
+
+    background: rgb(38, 23, 173);
+}
+
+.logo img {
+    width: 700px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+     border-radius: 16px;
+
+}
+
+
+
+body {
+    background-color: #1d72cc;
+    color: white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+
+.paragrafo {
+    text-align: justify;
+    font-size: 1.1rem;
+}
+
+
+nav {
+    background-color: #1d72cca7;
+    padding: 15px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container {
+    display: grid;
+    place-items: center;
+    min-height: 50vh;
+    padding: 2rem;
+    max-width: 700px;
+    margin: 0 auto;
+    border-radius: 16px;
+    border: 1px solid var(--vidro);
+    backdrop-filter: blur(10px);
+    background: rgba(255, 255, 255, 0.096);
+}
+
+
+.card {
+    background: #8ea4cc44;
+
+    margin: 10px;
+
+
+}
+
+.card img {
+    width: 100%;
+    border-radius: 5px;
+    display: block;
+
+
+
+}
+
+.card a {
+    display: block;
+    margin-top: 10px;
+    background: #4422df;
+    color: white;
+    text-align: center;
+    padding: 8px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+form {
+    max-width: 300px;
+    margin: auto;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    background: #5939e6;
+    color: white;
+    text-align: center;
+    padding: 8px;
+    text-decoration: none;
+    border-radius: 5px;
+}
